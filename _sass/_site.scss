@@ -27,6 +27,11 @@ body {
   }
 }
 
+.emoji {
+  display: inline;
+  margin: 0px 0px 0px 0px;
+  border-radius: 0px;
+}
 
 /*--------------
   Header
@@ -63,6 +68,7 @@ body {
          -moz-transition: all .2s ease;
               transition: all .2s ease;
       margin-right: .3rem;
+      font-weight: 400;
 
       &:hover,
       &:focus {
@@ -123,8 +129,15 @@ body {
     color: $oc-gray-8;
     font-size: .75rem;
     text-transform: uppercase;
+    font-weight: 500;
   }
 
+  &-minute {
+    margin-bottom: .5rem;
+    color: $oc-gray-6;
+    font-size: .75rem;
+  }
+  
    &-tag {
     margin-bottom: 1.5rem;
 
@@ -174,6 +187,11 @@ body {
   &-disqus {
     margin-top: 4rem;
   }
+
+  &-related-post-title {
+  border-bottom: thin solid #f3f3f3;
+  }
+  
 
 }
 
@@ -348,7 +366,7 @@ body {
       }
 
       &-title {
-        font-size : 1.2rem;
+        font-size : 1rem;
         font-weight: 400;
       }
 
