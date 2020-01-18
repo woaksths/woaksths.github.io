@@ -6,8 +6,8 @@
 
 body {
   font: $base-font;
-  font-size: $base-font-size;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
   color: $text-color;
   background-color: $background-color;
   -webkit-font-smoothing: antialiased;
@@ -81,6 +81,7 @@ p {
   color: $text-color;
   margin: 0 0 1rem;
   line-height: 1.7em;
+  text-align: justify;
 }
 
 /*--------------
